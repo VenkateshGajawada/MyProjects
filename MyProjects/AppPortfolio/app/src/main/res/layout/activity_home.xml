@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/appBackGround"
+    tools:context="nanodegree.udacity.com.appportfolio.Home">
+
+    <TextView
+        android:layout_width="@dimen/activity_tvw_size"
+        android:layout_height="wrap_content"
+        android:text="@string/app_home_name"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/colorVwText"
+        android:id="@+id/tvHome"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_one_name"
+        android:id="@+id/btnPopularMovies"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:textColor="@color/colorButtonText"
+        android:layout_below="@+id/tvHome"
+        android:layout_alignStart="@+id/tvHome"
+        android:layout_alignEnd="@+id/tvHome"
+        android:background="@color/colorButtonBG"
+        android:textAlignment="center"
+        style="?android:attr/borderlessButtonStyle" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_two_name"
+        android:textColor="@color/colorButtonText"
+        android:id="@+id/btnStockHawk"
+        android:layout_below="@+id/btnPopularMovies"
+        android:layout_alignStart="@+id/btnPopularMovies"
+        android:layout_marginTop="@dimen/btn_margin"
+        android:layout_alignEnd="@+id/btnPopularMovies"
+        android:background="@color/colorButtonBG"
+        android:textAlignment="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_three_name"
+        android:id="@+id/btnBuildItBigger"
+        android:layout_below="@+id/btnStockHawk"
+        android:layout_alignStart="@+id/btnStockHawk"
+        android:layout_alignEnd="@+id/btnStockHawk"
+        android:layout_marginTop="@dimen/btn_margin"
+        android:background="@color/colorButtonBG"
+        android:textAlignment="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_four_name"
+        android:id="@+id/btnMakeYourApp"
+        android:layout_below="@+id/btnBuildItBigger"
+        android:layout_alignStart="@+id/btnBuildItBigger"
+        android:layout_alignEnd="@+id/btnBuildItBigger"
+        android:layout_marginTop="@dimen/btn_margin"
+        android:background="@color/colorButtonBG"
+        android:textAlignment="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_five_name"
+        android:id="@+id/btnGoUbiquitous"
+        android:layout_below="@+id/btnMakeYourApp"
+        android:layout_alignStart="@+id/btnMakeYourApp"
+        android:layout_alignEnd="@+id/btnMakeYourApp"
+        android:layout_marginTop="@dimen/btn_margin"
+        android:background="@color/colorButtonBG"
+        android:textAlignment="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_six_name"
+        android:id="@+id/btnCapstone"
+        android:layout_below="@+id/btnGoUbiquitous"
+        android:layout_alignStart="@+id/btnGoUbiquitous"
+        android:layout_alignEnd="@+id/btnGoUbiquitous"
+        android:layout_marginTop="@dimen/btn_margin"
+        android:background="@color/colorButtonBG"
+        android:textAlignment="center"
+        style="?android:attr/borderlessButtonStyle"/>
+</RelativeLayout>
